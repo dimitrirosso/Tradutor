@@ -19,7 +19,7 @@ async function traduzir(){
     traducao.innerHTML = dados.responseData.translatedText
 
     if(texto.value === ""){
-        textoTraduzido.innerHTML = "ERRO..."
+        traducao.innerHTML = "ERRO..."
     }
 
 }
@@ -43,4 +43,5 @@ function Ouvirvoz(){
 
 
 }
+
 
