@@ -16,7 +16,7 @@ async function traduzir(){
     let resposta = await fetch(endereco);
 
     let dados = await resposta.json();
-    traducao.innerHTML = dados.responseData.translatedText;
+    traducao.innerHTML = dados.responseData.translatedText
 
     if(texto.value === ""){
         textoTraduzido.innerHTML = "ERRO..."
@@ -43,3 +43,4 @@ function Ouvirvoz(){
 
 
 }
+
