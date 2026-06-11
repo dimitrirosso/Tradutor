@@ -9,6 +9,7 @@ let texto = document.querySelector(".input-texto")
 let traducao = document.querySelector(".traducao")
 let idioma = document.querySelector(".idioma")
 
+
 async function traduzir(){
 
     let endereco = "https://api.mymemory.translated.net/get?q=" + texto.value + "&langpair=pt-BR|" + idioma.value;
