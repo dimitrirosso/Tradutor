@@ -1,8 +1,6 @@
 
 /*https://api.mymemory.translated.net/get?q=*/
 
-/*Hello World!*/
-
 /*&langpair=pt-BR|en*/
 
 let texto = document.querySelector(".input-texto")
