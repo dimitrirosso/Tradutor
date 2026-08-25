@@ -23,7 +23,6 @@ async function traduzir(){
 
 }
 
-
 function Ouvirvoz(){
     let voz = window.webkitSpeechRecognition;
 
